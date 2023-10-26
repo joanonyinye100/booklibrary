@@ -220,11 +220,11 @@ var modalexit = document.querySelector(".k-exit");
 }
  modalexit.onclick = function(){
 
-    var modalexit = document.querySelector(".k-exit");
+    let modalquit = document.querySelector(".k-exit");
 
      modal.style.display = "none";
  };
-
+// to  add book to favourite
  function AddFavourite(title, name) {
     let books = fetchBook();
     let indexpresent = -1;
